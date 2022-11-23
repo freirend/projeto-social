@@ -40,3 +40,22 @@ section.telefone{
     width: 267px;
     height: 473px;
 }
+
+section.redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px black;
+    box-sizing: border-box;
+}
+
+section.redes-sociais{
+    text-align: right;
+}
+
+section.redes-sociais img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    transition: 140ms;
+    box-shadow: 3px 3px 10px black;
+}
